@@ -1,0 +1,776 @@
+@import url("/global/scripts/features/slick/slick-min.css");
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+ color:white;
+  width:100%;
+  background-color:black;
+   }
+.container-pro {
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  flex-wrap:wrap;
+  background-repeat: no-repeat;
+}
+.container-pro-box {
+  display:flex;
+  justify-content:center;
+ }
+#searchone {
+  width:350px;
+  height:37px;
+ max-width:350px;
+  position:relative;
+  top:30px;
+  font-size:14px;
+}
+#submit {
+  position:relative;
+  top:31px;
+  right:7px;
+  height:37px;
+}
+#fa-search {
+  width: 100%;
+  height:100%;
+  padding: 5px;
+  background: #2196F3;
+  color: white;
+  border: 1px white;
+  border-left: none;
+  cursor: pointer;
+  font-size:20px;
+ }
+#log {
+   position:relative;
+  font-size:12px;
+line-height:27px;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration-color: rgb(255,255,255);
+  text-decoration-style:solid;
+  text-transform:uppercase;
+  top:40px;
+}
+.rectangle {
+  position:relative;
+  top:47px;
+  right:10px;
+  width:40px;
+  height:20px;
+  border: 1px solid grey;
+  z-index:1;
+  font-size:15px;
+  text-align:center;
+  align-items:center;
+  font-family:'Open sans',sans-serif;
+  font-weight:100;
+}
+#checkout {
+  position:relative;
+  color:white;
+ z-index:2;
+  left:65px;
+  top:38px;
+  font-size:30px;
+}
+#zero {
+ position:relative;
+   left:47.5px;
+  top:48px;
+   z-index:3;
+  font-size:15px;
+  font-family:'Open sans',sans-serif;
+  color:black;
+ }
+.container-nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  border-top:1px solid grey;
+  border-bottom:1px solid grey;
+  height:50px;
+  flex-wrap:wrap;
+  position:relative;
+  
+}
+ul li {
+  position:relative;
+  display:inline;
+  margin:13px;
+   font-size:12px;
+   font-family: 'Open Sans', sans-serif;
+  top:13px;
+   font-weight:600;
+}
+#home {
+  font-size:20px;
+  position:relative;
+  top:13px;
+}
+#sale {
+ color:#e70835;
+}
+@media (max-width:970px) {
+  .container-pro {
+    flex-direction:column;
+    justify-content:center;
+  }
+  #log, #checkout, #zero , .rectangle {
+    opacity:0;
+  }
+  
+  .container-nav {
+   position:relative;
+    top:70px;
+    
+    }
+  ul li {
+    margin:3px;
+    
+  }
+  .container-harden {
+    opacity:0;
+  }
+  
+}
+@media (max-width:750px) {
+    .container-nav {
+   height:65px;
+  } 
+}
+
+.container-harden {
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  position:relative;
+  right:6px;
+  z-index:1;
+}
+.container-main {
+ width:100%;
+  z-index:2;
+  position:relative;
+  bottom:970px;
+ }
+.container-main-box{
+  display:flex;
+  background-color:#41CEAE;
+  height:60px;
+  width:960px;
+  margin:auto;
+  text-align:center;
+ position:relative;
+ 
+ justify-content:center;
+  align-items:center;
+ 
+ }
+.container-main-space{
+ display:flex;
+  justify-content:center;
+  padding-top:40px;
+  width:960px;
+  background-color:black;
+  margin:auto;
+  flex-wrap:wrap;
+  text-align:center;
+   height:60px;
+  
+}
+#order {
+  justify-content:space-between;
+  display:flex;
+  flex-wrap:wrap;
+  width:960px;
+  margin:auto;
+  padding-right:20px;
+  position:relative;
+  bottom:20px;
+  text-align:center;
+  height:100%;
+  font-size:13px;
+   font-family: 'Open Sans';
+  font-weight:700;
+  letter-spacing:1px;
+}
+#shipping, #pm , #buy {
+  position:relative;
+  display:flex;
+  height:50px;
+  text-align:center;
+  background-color:#c0c0c0;
+  width:300px;
+  justify-content:center;
+  align-items:center;
+  color:#000;
+ }
+#pm {
+  position:relative;
+  left:10px;
+  display:flex;
+  
+}
+ #buy {
+  position:relative;
+  left:20px;
+   color:white;
+   background-color:#e70835;
+}
+@media (max-width:950px)  {
+ .container-main-box {
+    width:100%;
+    height:80px;
+   position:relative;
+   top:80px;
+  }
+  .container-main-space {
+    opacity:0;
+  }
+}
+.container-flex-shoes {
+  position:relative;
+  bottom:950px;
+  margin: auto;
+  width:960px;
+  display:flex;
+  justify-content:start;
+  z-index:3;
+}
+.carousel {
+  height:100%;
+  overflow:hidden;
+  position:relative;
+ }
+.slider {
+  display:flex;
+  width:400%;
+ }
+
+.images {
+  width:960px;
+  height:450px;
+  position:relative;
+  z-index:97;
+}
+.images img {
+  width:100%;
+  height:100%;
+  position:relative;
+  z-index:4;
+}
+.banner-contents {
+  z-index:99;
+  position:absolute;
+  transform:translate(29%,30%);
+}
+.banner-contents-three {
+  z-index:99;
+  position:absolute;
+  transform:translateY(75%);
+  right:8%;
+  
+} 
+.banner-contents h4 , .banner-contents-three h4{
+  font-size:34px;
+  font-weight:300;
+  
+}
+.banner-contents-three h4{
+  margin-bottom:4px;
+}
+.banner-contents .shopnow , .banner-contents-three .shopnow{
+  color:black;
+  top:20px;
+  position:relative;
+  font-weight:700;
+  letter-spacing:.5px;
+  background-image:url('https://www.prodirectbasketball.com/siteimages/global/wembley/new-white-button.png');
+  background-repeat:no-repeat;
+  width:100%;
+  height:50px;
+  font-size:15px;
+}
+.shopnow p {
+  transform:translate(35%,5%);
+  position:relative;
+  top:15%;
+  font-family:'Open sans' sans-serif;
+  font-weight:600;
+}
+
+
+@media (max-width:970px) {
+  .container-flex-shoes {
+    width:97%;
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+  }
+  .slider img {
+    width:100%;
+    
+  }
+  
+}
+.controls .arrow {
+  position:absolute;
+  top:45%;
+  cursor:pointer;
+  width:50px;
+  height:50px;
+  background-color:black;
+  opacity:0;
+}
+.arrow.right {
+  right:0px;
+  
+}
+.arrow.left {
+  left:0px;
+}
+.controls .arrow i {
+  font-size:50px;
+  cursor:pointer;
+ }
+.container-flex-shoes:hover .arrow {
+  opacity:1;
+  transition:1s ease;
+}
+.controls ul {
+  position:absolute;
+ list-style:none;
+  display:flex;
+  justify-content:center;
+ bottom:20px;
+   left:45%;
+  align-items:center;
+  z-index:100;
+}
+.controls ul li {
+  width:12px;
+  height:12px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin:5px;
+  background-color: #202020;
+  cursor:pointer;
+  position:relative;
+  
+}
+.controls ul li.selected {
+  background-color:white;
+}
+.input-two {
+ width:960px;
+  background-color:#DCDCDC;
+  position:relative;
+  bottom:940px;
+  z-index:99;
+  display:flex;
+  height:70px;
+  border-radius:5px;
+}
+#finder {
+  font-family:'Opens Sans', sans-serif;
+  font-size:32px;
+  color:black;
+  font-weight:300;
+  position:relative;
+  left:5%;
+}
+.options {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  position:relative;
+  margin:auto 0;
+}
+.options select {
+  height:33px;
+  font-size:17px;
+  margin-right:23px;
+  margin-left:45px;
+  background-color:#202020;
+    color:white;
+  border-radius:5px;
+}
+
+.input-container {
+  display:flex;
+  justify-content:center;
+}
+@media (max-width:937px) {
+  .input-two {
+    width:97%;
+  }
+  .options { 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+   width:100%;
+    margin:20px;
+  }
+  #finder {
+    text-align:center;
+    left:0px;
+  }
+  .options select {
+    width:90%;
+    position:relative;
+    bottom:34%;
+  }
+  .input-two{
+    height:320px;
+  }
+}
+.deals-container {
+  display:flex;
+  justify-content:center;
+}
+
+.hot-deals {
+  width:973px;
+  position:relative;
+  
+  bottom:900px;
+  z-index:99;
+  margin-bottom:10px;
+ }
+.hot-deals h1{
+ display:flex;
+  justify-content:center;
+  font-family:'Open sans' sans-serif;
+  text-transform:uppercase;
+  position:relative;
+    margin-bottom:20px;
+}
+.slider-two {
+  width:200%;
+  display:flex;
+}
+.hats-section {
+  display:flex;
+ width:100%;
+  justify-content:space-between;
+  overflow:hidden;
+ }
+.hats-section img{
+  margin:20px;
+  width:153px;
+  
+}
+figcaption {
+  text-align:center;
+  margin-top:15px;
+  font-size:13px;
+}
+figcaption span {
+  color:red;
+  font-size:16px;
+}
+.controls-two .arrow-new {
+  position:absolute;
+  top:35%;
+  
+  cursor:pointer;
+  width:34px;
+  height:34px;
+  background-color:black;
+  color:white;
+}
+.arrow-new.left-new {
+  
+  left:0
+}
+.arrow-new.right-new {
+  right:0;
+}
+.controls-two .arrow-new i {
+  font-size:34px;
+}
+@media (max-width:970px) {
+  .hot-deals {
+    justify-content:center;
+  }
+  .hats-section {
+    width:100%;
+    justify-content:space-between;
+  }
+  .hats-section img {
+    width:200px;
+    
+  }
+}
+
+.container-double {
+  margin:auto;
+  width:960px;
+  position:relative;
+  bottom:880px;
+  }
+.contents {
+  width:960px;
+   display:flex;
+}
+.double {
+  width:960px;
+  height:237px;
+  position:relative;
+ 
+ }
+ .item-one {
+  background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/double/all-shoes.jpg?imwidth=480');
+   width:50%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-two {
+  background-image:url("https://www.prodirectbasketball.com/siteimages/Pages/wembley/double/new-in-shoes.jpg?imwidth=480");
+  width:50%;
+  background-repeat: no-repeat;
+      background-color:#404040;
+  z-index:99;
+   
+}
+.text-double {
+  top:0%;
+  position:absolute;
+  opacity:0;
+}
+.text-double {
+  margin:5% 3%;
+}
+.text-double p {
+  padding:5% 3%;
+  border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+  color:#fff;
+  transform:translate(0 ,-20px)
+}
+.overlay {
+  position:absolute;
+  top:80.7%;
+  width:100%;
+  
+}
+.overlay h2 {
+  text-align:center;
+  background: #090909;
+  color:#fff;
+  font-size:34px;
+  text-transform:uppercase;
+  font-weight:300;
+ }
+
+.item-one:hover , .item-two:hover{
+  background-image:none;
+}
+.item-one:hover .text-double, .item-two:hover .text-double {
+  opacity:1;
+}
+.item-one:hover .overlay h2 , .item-two:hover .overlay h2{
+  transition:0.2s ease;
+  transform:translate(0,-20px); 
+  background-color:#404040;
+}
+.item-one:hover  p , .item-two:hover p{
+  transform:translate(0,0px);
+  transition:1s ease;
+}
+.container-single {
+  margin:auto;
+  width:960px;
+  position:relative;
+  bottom:880px;
+}
+.contents {
+  width:960px;
+   display:flex;
+  flex-wrap:wrap;
+}
+.single {
+  width:960px;
+  height:237px;
+  position:relative;
+ 
+ }
+ .item-three {
+  background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/nike-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+   
+ }
+.item-four {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/jordan-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-five {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/adidas-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-six {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/under-armour-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-seven {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/training-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-eight {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/lifestyle-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-nine {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/kids-shoes.jpg');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+.item-ten {
+ background-image:url('https://www.prodirectbasketball.com/siteimages/Pages/wembley/single/sale.png');
+   width:25%;
+   background-size:100%;
+  background-repeat: no-repeat;
+    background-color:#404040;
+  z-index:99;
+ }
+
+
+.text-single {
+  top:0%;
+  position:absolute;
+  opacity:0;
+}
+.text-single {
+  margin:5% 3%;
+}
+.text-single p {
+  padding:5% 3%;
+  border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+  color:#fff;
+  transform:translate(0 ,-20px)
+}
+.single h2 {
+  font-size:20px;
+  height:13%;
+  transform:translateY(20%)
+ }
+.single .overlay {
+  top:87.3%;
+  height:80%;
+}
+.item-three:hover , .item-four:hover , .item-five:hover , .item-six:hover , .item-seven:hover, .item-eight:hover, .item-nine:hover {
+  background-image:none;
+}
+.item-three:hover .text-single, .item-four:hover .text-single , .item-five:hover .text-single , .item-six:hover .text-single , .item-seven:hover .text-single , .item-eight:hover .text-single , .item-nine:hover .text-single{
+  opacity:1;
+}
+.item-three:hover .overlay h2 ,.item-four:hover .overlay h2 ,.item-five:hover .overlay h2 ,.item-six:hover .overlay h2 ,.item-seven:hover .overlay h2 ,.item-eight:hover .overlay h2 ,.item-nine:hover .overlay h2{
+  transition:0.2s ease;
+  transform:translate(0,-20px); 
+  background-color:#404040;
+}
+.item-three:hover p ,.item-four:hover p
+,.item-five:hover p,.item-six:hover p,.item-seven:hover p,.item-eight:hover p,.item-nine:hover p {
+  transform:translate(0,30px);
+  transition:1s ease;
+}
+@media (max-width:990px) {
+  
+ .container-double .contents {
+    flex-direction:column;
+    align-items:center;
+    margin:auto;
+  }
+  .container-single {
+    width:960px;
+    height:100%;
+  }
+ .container-single .contents {
+    width:480px;
+    flex-direction:row;
+     margin:auto;
+     }
+  .single {
+    width:50%;
+  }
+  
+}
+@media (max-width:755px) {
+ .container-single .text-single , .overlay , .container-double .text-double {
+    opacity:0;
+  }
+  
+  .container-single .contents {
+    display:flex;
+    margin:0;
+  }
+  .container-double .contents {
+    align-items:flex-start;
+  }
+}
+.copyright {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  position:relative;
+  bottom:800px;
+  
+}
+ .fab.fa-cc-visa ,.fab.fa-cc-mastercard,.fab.fa-cc-amex,.fab.fa-paypal{
+  font-size:36px;
+   position:relative;
+   top:60px;
+   margin-right:10px;
+   }
+.fab.fa-cc-mastercard {
+  color:yellow;
+}
+.fab.fa-cc-amex {
+  color:#3399FF;
+}
+.fab.fa-paypal{
+  color:#0080FF;
+}
+.payment-logos {
+  display:flex;
+  justify-content:center;
+  position:relative;
+  bottom:800px;
+}
